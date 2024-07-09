@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bbt72mwxgnhts"]
+
+[ext_resource type="Script" path="res://DSmyth/Scripts/Functions.gd" id="1_y1vq6"]
+
+[node name="Functions" type="Node"]
+script = ExtResource("1_y1vq6")
