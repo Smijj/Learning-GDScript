@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://c8wga7g8w0y5k"]
+
+[ext_resource type="Script" path="res://DSmyth/Scripts/Nodes.gd" id="1_0qmf6"]
+
+[node name="Nodes" type="Node" node_paths=PackedStringArray("playerExportRef", "explicitRef")]
+script = ExtResource("1_0qmf6")
+playerExportRef = NodePath("Player")
+explicitRef = NodePath("Player/Sprite")
+
+[node name="Player" type="Node2D" parent="."]
+
+[node name="Sprite" type="Sprite2D" parent="Player"]
+
+[node name="Enemy" type="Node2D" parent="."]
