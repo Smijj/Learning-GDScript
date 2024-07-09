@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cayeeaa0xx51o"]
+
+[ext_resource type="Script" path="res://DSmyth/Scripts/Variables.gd" id="1_cmhpa"]
+
+[node name="Variables" type="Node"]
+script = ExtResource("1_cmhpa")
