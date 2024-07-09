@@ -1,9 +1,9 @@
 [gd_scene load_steps=2 format=3 uid="uid://b7h60sr1jn7jo"]
 
-[ext_resource type="Script" path="res://DSmyth/Scripts/main.gd" id="1_8l10w"]
+[ext_resource type="Script" path="res://DSmyth/Scripts/Input.gd" id="1_w63no"]
 
-[node name="Main" type="Node"]
-script = ExtResource("1_8l10w")
+[node name="Input" type="Node"]
+script = ExtResource("1_w63no")
 
 [node name="Label" type="Label" parent="."]
 anchors_preset = 8
