@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://bcla6t0hlofj7"]
+
+[ext_resource type="Script" path="res://DSmyth/Scripts/Classes.gd" id="1_1nimm"]
+[ext_resource type="Script" path="res://DSmyth/Scripts/Character.gd" id="2_uscxw"]
+
+[node name="Classes" type="Node" node_paths=PackedStringArray("CharacterToKill")]
+script = ExtResource("1_1nimm")
+CharacterToKill = NodePath("Character")
+
+[node name="Character" type="Node" parent="."]
+script = ExtResource("2_uscxw")
+Profession = "Knight"
+Health = 100
+
+[node name="Character2" type="Node" parent="."]
+script = ExtResource("2_uscxw")
+Profession = "Joker"
+Health = 10
+
+[node name="Character3" type="Node" parent="."]
+script = ExtResource("2_uscxw")
+Profession = "TF"
+Health = 40

@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="GD.Learning GDScript"
-run/main_scene="res://DSmyth/Scenes/Getters_and_setters.tscn"
+run/main_scene="res://DSmyth/Scenes/Classes.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
 
