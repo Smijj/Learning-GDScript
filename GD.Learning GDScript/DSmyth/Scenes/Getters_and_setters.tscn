@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dr8actltm06r8"]
+
+[ext_resource type="Script" path="res://DSmyth/Scripts/Getters_and_setters.gd" id="1_5q2bc"]
+
+[node name="Getters and Setters" type="Node"]
+script = ExtResource("1_5q2bc")
