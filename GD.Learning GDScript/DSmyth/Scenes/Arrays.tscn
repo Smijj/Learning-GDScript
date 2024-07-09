@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bg0dgx4uc2h3"]
+
+[ext_resource type="Script" path="res://DSmyth/Scripts/Arrays.gd" id="1_y0gwi"]
+
+[node name="Arrays" type="Node"]
+script = ExtResource("1_y0gwi")
